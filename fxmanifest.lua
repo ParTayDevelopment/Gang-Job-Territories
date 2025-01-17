@@ -5,7 +5,6 @@ lua54 'yes'
 shared_scripts { 
 	'@es_extended/imports.lua',
 	'@ox_lib/init.lua',
-	-- '@es_extended/locale.lua',
 	'config.lua',
 }
 
@@ -15,11 +14,11 @@ client_scripts {
     '@PolyZone/EntityZone.lua',
     '@PolyZone/CircleZone.lua',
     '@PolyZone/ComboZone.lua',
-	'client/*.lua'
+	'hometurf_c.lua'
 }
 
 server_scripts {
-	'server/*.lua'
+	'hometurf_s.lua'
 }
 
 
